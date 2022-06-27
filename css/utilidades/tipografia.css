@@ -1,0 +1,17 @@
+.text-1-xxl {
+  font-size: 64px;
+  line-height: 1.125;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 72px;
+}
+
+.text-2-l {
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
