@@ -26,6 +26,25 @@
   background: var(--cor-9);
 }
 
+.btn.seta {
+  display: flex;
+  align-items: center;
+}
+
+.btn.seta:hover::after {
+  transform: translateX(8px);
+}
+
+.btn.seta::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url(../../img/icones/seta.svg);
+  transition: transform 0.3s;
+}
+
 .btn:hover {
   background: linear-gradient(#ffb60d, #e59317);
 }
