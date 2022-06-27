@@ -12,3 +12,7 @@
 
 @import "./home/introducao.css";
 
+/* Bicicletas-Lista */
+
+@import "./bicicletas/bicicletas-lista.css";
+
