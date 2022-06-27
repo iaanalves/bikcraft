@@ -1,5 +1,5 @@
 .seguros-bg {
-  background: var(--cor-11);  
+  background: var(--cor-11);
 }
 
 .seguros {
@@ -8,7 +8,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  align-items: center; 
+  align-items: center;
 }
 
 .seguros h2 {
