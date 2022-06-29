@@ -33,7 +33,7 @@
   display: inline-block;
   width: 12px;
   height: 8px;
-  background-color: var(--cor-p1);  
+  background-color: var(--cor-p1);
 }
 
 .perguntas button::after {
@@ -54,11 +54,9 @@
   display: none;
 }
 
-
 .perguntas dd.ativa {
   display: block;
 }
-
 
 .perguntas dd {
   padding-left: 20px;
