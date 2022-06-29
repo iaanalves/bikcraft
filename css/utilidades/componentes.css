@@ -20,21 +20,21 @@
   cursor: pointer;
 }
 
+.btn:hover {
+  background: linear-gradient(#ffb60d, #e59317);
+}
+
 .btn.secondary {
   background: var(--cor-10);
   color: var(--cor-2);
 }
 .btn.secondary:hover {
-  background: var(--cor-9);
+  background: var(--cor-9);  
 }
 
 .btn.seta {
   display: flex;
   align-items: center;
-}
-
-.btn.seta:hover::after {
-  transform: translateX(8px);
 }
 
 .btn.seta::after {
@@ -47,8 +47,8 @@
   transition: transform 0.3s;
 }
 
-.btn:hover {
-  background: linear-gradient(#ffb60d, #e59317);
+.btn.seta:hover::after {
+  transform: translateX(8px);
 }
 
 @media (max-width: 600px) {
@@ -79,17 +79,17 @@
 
 /* Titulo Interno*/
 .title-bg {
-  background-color: var(--cor-11);
   padding-top: 60px;
   padding-bottom: 60px;
-}
-
-.title p {
-  margin-bottom: 4px;
+  background-color: var(--cor-11);
 }
 
 .title {
   background: url("../../img/dec/top-right.svg") no-repeat top right 20px;
+}
+
+.title p {
+  margin-bottom: 4px;
 }
 
 @media (max-width: 800px) {
